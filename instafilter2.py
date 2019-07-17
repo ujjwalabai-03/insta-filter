@@ -20,4 +20,4 @@ Rr,Gg,Bb = img_3.split()
 im = Image.merge("RGB",(r,b,Bb))
 im.show()
 
-#im.save('1_merged.jpg')
+im.save("filtered.jpg","JPG")
